@@ -88,8 +88,24 @@ a.active,a:hover{
   a:hover,a.active{
     background: none;
     color: #0082e6;
-  }
+  } 
   #check:checked ~ ul{
     left: 0;
   }
+}
+.home-area{
+  background-image: url("../images/piza.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color: white;
+   text-align: center;
+   padding-top: 40%;
+   font-family: cursive;
+}
+.home-area p {
+  text-align: center;
+  padding-bottom: 2%;
 }
