@@ -118,7 +118,7 @@ a.active,a:hover{
   text-align: center;
   padding-top: 12%;
 }
-.about-area h2 {
+.about-area h2, .services-area h2 {
   text-align: center;
   text-shadow: 2px 2px blueviolet;
 }
