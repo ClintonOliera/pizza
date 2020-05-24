@@ -34,6 +34,7 @@
     </div>
     <div class="services-area" id="services">
       <h2>Services</h2>
+      <p>click the <strong>order here</strong> button below to make your order</p>
       <div class="row">
         <div class="col-md-6">
           <img src="images/pizza1.jpg">
@@ -44,6 +45,62 @@
           <p id="dec2" class="text">pizza filled with tomatoes colorful bell peppers salami and olives</p>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <button type="button" class="btn btn-outline-nfo btn-danger" id="order">ORDER HERE</button>
+      <form id="form1">
+        <div class="form-group">
+          <label for="select">Choose your type:</label>
+          <select class="form-control" id="type" multiple="multiple" required>
+            <option>Margherita</option>
+            <option>Deluxe</option>
+            <option>Hawaiian</option>
+            <option>Peperoni</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="select">Choose your size:</label>
+          <select class="form-control" id="size" multiple="multiple" required>
+            <option value="1">Large-size---1200</option>
+            <option value="2">medium-size---800</option>
+            <option value="3">small-size---600</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="select">Choose your crust:</label>
+          <select class="form-control" id="crust" multiple="multiple" required>
+            <option value="1">Cripsy ---100</option>
+            <option value="2">Stuffed ---120</option>
+            <option value="3">Gluten-free---200</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="select">Choose your Toppings:</label>
+          <select class="form-control" id="toppings" multiple="multiple" required>
+            <option value="1">Pepperoni ---100</option>
+            <option value="2">Mushrooms ---120</option>
+            <option value="3">salad ---80</option>
+            <option value="4">Sausage ---150</option>
+            <option value="5">Salami ---200</option>
+          </select>
+        </div>
+       <div class="form-group" required>
+          <label for="select">Quantity:</label>
+          <input type="number" id="quantity" class="form-control" min="1" required>
+       </div>
+       <div class="form-group"  required>
+        <label for="select">Delivery option:</label>
+        <select class="form-control" id="delivery" multiple="multiple" required>
+          <option value="1">No Delivery</option>
+          <option value="2">To be Delivered</option>
+        </select>
+       </div>
+       <div class="form-group">
+        <button type="submit" class="btn btn-info btn-block">ORDER</button>
+
+       </div>
+      </form>
+      
     </div>
   </body>
 </html>
