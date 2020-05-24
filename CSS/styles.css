@@ -118,7 +118,20 @@ a.active,a:hover{
   text-align: center;
   padding-top: 12%;
 }
-.about-area h2, .services-area h2 {
+.about-area h2, .services-area h2, .feedback-area h2 {
   text-align: center;
   text-shadow: 2px 2px blueviolet;
+}
+.services-area p {
+  text-align: center;
+  font-family: cursive;
+}
+#form1 {
+  display: none;
+}
+.about-area, .services-area, .feedback-area {
+  position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
 }
