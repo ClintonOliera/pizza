@@ -56,8 +56,15 @@ $(document).ready(function(){
           if(pizzaPick===2){
              var location= prompt(" Where would your like your Pizza to be Delivered? ");
              alert("your pizza will be delivered at " + location + " you will be charged 200/= for delivery");
+             alert(newOrder.order());
+             alert("Your bill is: " + newTotal.finalTotal());
              alert("Thank you for shopping with us!")
           }
       }
 })
 });
+
+function validateForm() {
+  var name = document.getElementById("name").value;
+  alert( name + " we have received your message thank you for your feedback");
+}

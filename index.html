@@ -53,7 +53,7 @@
       <form id="form1">
         <div class="form-group">
           <label for="select">Choose your type:</label>
-          <select class="form-control" id="type" multiple="multiple" required>
+          <select class="form-control" id="type"  required>
             <option>Margherita</option>
             <option>Deluxe</option>
             <option>Hawaiian</option>
@@ -62,7 +62,7 @@
         </div>
         <div class="form-group">
           <label for="select">Choose your size:</label>
-          <select class="form-control" id="size" multiple="multiple" required>
+          <select class="form-control" id="size"  required>
             <option value="1">Large-size---1200</option>
             <option value="2">medium-size---800</option>
             <option value="3">small-size---600</option>
@@ -70,7 +70,7 @@
         </div>
         <div class="form-group">
           <label for="select">Choose your crust:</label>
-          <select class="form-control" id="crust" multiple="multiple" required>
+          <select class="form-control" id="crust"  required>
             <option value="1">Cripsy ---100</option>
             <option value="2">Stuffed ---120</option>
             <option value="3">Gluten-free---200</option>
@@ -78,7 +78,7 @@
         </div>
         <div class="form-group">
           <label for="select">Choose your Toppings:</label>
-          <select class="form-control" id="toppings" multiple="multiple" required>
+          <select class="form-control" id="toppings"  required>
             <option value="1">Pepperoni ---100</option>
             <option value="2">Mushrooms ---120</option>
             <option value="3">salad ---80</option>
@@ -92,13 +92,13 @@
        </div>
        <div class="form-group"  required>
         <label for="select">Delivery option:</label>
-        <select class="form-control" id="delivery" multiple="multiple" required>
+        <select class="form-control" id="delivery"  required>
           <option value="1">No Delivery</option>
           <option value="2">To be Delivered</option>
         </select>
        </div>
        <div class="form-group">
-        <button type="submit" class="btn btn-info btn-block">ORDER</button>
+        <button type="submit" onclick="return sumbit()" class="btn btn-info btn-block">ORDER</button>
 
        </div>
       </form> 
@@ -126,5 +126,7 @@
        </form>
       </div>
     </div>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
